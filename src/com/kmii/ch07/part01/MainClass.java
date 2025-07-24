@@ -13,16 +13,24 @@ public class MainClass {
 		
 		System.out.println("-----------------------");
 		
+		
+		
 		Dog dog1 = new Dog();
 		Dog dog2 = new Dog("멍멍",5);
 		
 		
+		
 		System.out.println("-----------------------");
+		
+		
 		
 		Student s1 = new Student("홍길동",5, 12); // 홍길동과 12는 부모(person)한테 들어간다. 5는 자식(student)에게
 		
 		
+		
 		System.out.println("-----------------------");
+		
+		
 		
 		Triangle t1 = new Triangle();
 			t1.width = 10;
