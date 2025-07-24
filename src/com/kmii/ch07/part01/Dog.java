@@ -7,7 +7,17 @@ public class Dog extends Animal {
 	
 	
 	public Dog() {
+		super(); //부모클래스의 생성자 호출
 		
+	}
+	
+	public Dog(boolean tail) {
+		super(); 
+		this.tail = tail;
+	}
+	
+	public Dog(String name, int age) {
+		super(name,age);
 	}
 	
 	

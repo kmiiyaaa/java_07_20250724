@@ -10,6 +10,11 @@ public class MainClass {
 		r1.width = 10; 
 		r1.recArea = 50.5;
 		
+		
+		
+		Dog dog1 = new Dog();
+		Dog dog2 = new Dog("멍멍",5);
+		
 	}
 
 }
