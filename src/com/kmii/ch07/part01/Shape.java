@@ -8,8 +8,8 @@ public class Shape { //부모클래스
 	String color;  // 도형면 색
 
 	
-	public int area() {  // 도형의 면적 계산 메소드
-		int area =  width * height;
+	public double area() {  // 도형의 면적 계산 메소드
+		double area =  this.width * height;
 		return area;
 	}
 	
