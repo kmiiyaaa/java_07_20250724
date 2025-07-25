@@ -24,7 +24,7 @@ public class Car {
 	//매개변수에 인수로  금호타이어 객체가 들어오면 - 금호, 한국타이어 객체가 들어오면 - 한국 으로 출력하는 메서드
 	public void tirePrint(Tire tire) { // 어떤것이든 받아주는 게 부모(tire) 
 		//타이어의 이름을 출력
-		tire.tireName();
+		//tire.tireName;
 	}
 	
 }
