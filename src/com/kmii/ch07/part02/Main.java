@@ -34,7 +34,9 @@ public class Main {
 		Person person3 = new Soldier();
 		Person person4 = new Student();
 		
+		
 		System.out.println("----------------------------");
+		
 		
 		Car myCar = new Car();
 		
@@ -44,6 +46,12 @@ public class Main {
 		myCar.frontTire = new KeumhoTire(); // 설계도가 tire - tire안 객체? 사용가능 - > 부모(tire)안에 자식 (한국,금호)사용가능
 		myCar.rearTire = new HankookTire();		
 		
+		HankookTire hankookTire = new HankookTire();
+		KeumhoTire keumhoTire = new KeumhoTire();
+		
+		
+		myCar.tirePrint(hankookTire); // 부모를 써놓으면 여러가지 매개변수를 가져올 수 있다.
+		myCar.tirePrint(keumhoTire);
 		
 		
 		
