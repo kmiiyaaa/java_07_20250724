@@ -2,26 +2,28 @@ package com.kmii.ch07.test01;
 
 public class Animal {
 	
-	String name;
-	double weight;
-	
-	
-	
-	
-	public Animal() {
-		
-	}
-	
-	
+	// Animal 클래스를 상속 받는 Dog, Cat, Tiger 클래스를 만드시오.
+	//bark() -> 오버라이딩
 
-	public Animal(String name, double weight) {
-		this.name = name;
-		this.weight = weight;
-	}
-	
-	public void bark() {
-		
-	}
+		 String name;
+		 String bark;
+		    
+		    
+		    public Animal() {
+				super();
+				
+			}
+		   
+
+			public Animal(String name, String bark) {
+				this.name = name;
+				this.bark = bark;
+			}
+
+
+			public void bark() {
+		        System.out.println(name+"이 짖습니다.");
+		    }
 
 
 	//public void a1() {

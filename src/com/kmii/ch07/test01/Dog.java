@@ -4,16 +4,12 @@ import java.util.jar.Attributes.Name;
 
 public class Dog extends Animal {
 
-	@Override
-	public void bark() {
-		// TODO Auto-generated method stub
-	     super.bark(); {
-			System.out.println("개 짖는소리");
-		}
-	}
 
+	 @Override
+	    public void bark() {
+	        System.out.println(" 멍멍!");
+	 }
 	
-
 	
 	
 		

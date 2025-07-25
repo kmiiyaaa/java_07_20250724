@@ -17,8 +17,7 @@ public class Car {
 	
 	
 	public void carType() {
-		System.out.println("이차의 종류는 " + this.type + "입니다." );
+		System.out.println("이 차의 종류는 " + this.type + "입니다." );
 	}
-	
 
 }
