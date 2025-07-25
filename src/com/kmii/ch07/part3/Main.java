@@ -11,7 +11,6 @@ public class Main {
 		System.out.println("사각형의 넓이:" + rectangle.getArea());
 		
 		
-		
 		Circle circle= new Circle();
 		circle.setRadius(10);
 		//System.out.println("원의 넓이 : "+shape.sha());
